@@ -4,7 +4,7 @@ var socket = io();
 socket.on('connect', function() {
 
     // 이름입력
-    var name = prompt('반갑습니다','');
+    var name = prompt('반갑습니다. 닉네임을 입력해주세요.','');
 
     if(!name) {
         name = '익명';
